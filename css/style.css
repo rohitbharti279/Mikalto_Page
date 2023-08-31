@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.blue-color {
+  color: #0e245d !important;
+}
+
+.hero {
+  background-image: url(/image/hero-background.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#google-translate {
+  margin-top: 0.5rem;
+}
+
+.welcome-right img {
+  display: none;
+}
+
+.experience-matter img {
+  width: 100%;
+}
+
+.hello {
+  background-image: url(/image/hello/hello-swim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello-more {
+  width: 70%;
+  margin: 3rem;
+}
+
+/* rating */
+.rate {
+  display: inline-block;
+  font-size: 0;
+}
+
+.rate input {
+  display: none;
+}
+
+.rate label {
+  float: right;
+  width: 20px;
+  height: 20px;
+  background-image: url(/image/customer/star.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.rate label:hover,
+.rate label:hover ~ label {
+  background-image: url(/image/customer/star-fill.png);
+}
+
+.rate input:checked + label,
+.rate input:checked + label ~ label {
+  background-image: url(/image/customer/star-fill.png);
+}
+
+.spa-left img {
+  width: 60%;
+}
+
+.spa-left-image img {
+  width: 100%;
+}
+
+.spa {
+  background-color: rgb(249, 214, 219);
+}
+
+.subscribe {
+  gap: 0.5rem;
+}
+
+a:hover,
+button:hover {
+  scale: 1.1;
+}
+
+/* slider */
+.room-left-button:hover,
+.room-right-button:hover {
+  scale: 1.1;
+  background-color: rgb(172, 220, 218);
+}
+
+.room-left-button,
+.room-right-button {
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  top: 80%;
+}
+
+.room-right-button {
+  right: 5px;
+}
+
+.show-slide-collection {
+  display: none;
+}
+
+.transition {
+  animation-name: fade;
+  animation-duration: 1s;
+  scroll-behavior: auto;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .acyivity-top-left {
+    height: 54.9vh;
+  }
+
+  .acyivity-bottom-right {
+    height: 65.2vh !important;
+  }
+
+  .acyivity-top-right {
+    height: 55vh;
+    width: 50vw;
+  }
+
+  .acyivity-top-right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .acyivity-bottom-left {
+    height: 65.2vh;
+    width: 50vw;
+  }
+  .acyivity-bottom-left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .welcome-right img {
+    display: block;
+  }
+
+  .welcome-right {
+    position: relative;
+  }
+
+  .welcome-b {
+    position: absolute;
+    z-index: 1;
+    top: 5rem;
+    left: 8rem;
+  }
+
+  .welcome-a {
+    position: absolute;
+    z-index: 2;
+    top: 11rem;
+    left: 4rem;
+  }
+
+  .room-left-button,
+  .room-right-button {
+    top: 50%;
+  }
+
+  .room-left-button {
+    left: 41%;
+  }
+
+  .room-left {
+    width: 40%;
+  }
+
+  .show-slide img {
+    width: 60%;
+  }
+
+  .acyivity-top-right,
+  .acyivity-top-left,
+  .acyivity-bottom-right,
+  .acyivity-bottom-left {
+    width: 50%;
+  }
+
+  .experience-matter {
+    width: 45%;
+  }
+
+  .hello-more {
+    margin: 4rem;
+    width: 40%;
+    margin-left: 60%;
+  }
+
+  .customer {
+    width: 50%;
+  }
+
+  .map-information {
+    width: 50%;
+  }
+
+  .map iframe {
+    height: 45rem !important;
+  }
+
+  .bridge img {
+    width: 40%;
+  }
+
+  .spa-left {
+    width: 55%;
+  }
+
+  .spa-right {
+    width: 45%;
+  }
+
+  .subscribe {
+    gap: 9rem;
+  }
+
+  .footer-mikalto {
+    width: 31%;
+  }
+
+  .footer-contact {
+    width: 23%;
+  }
+
+  .footer-end {
+    gap: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .choose {
+    width: 90%;
+  }
+
+  .choose-heading {
+    margin-left: 4rem;
+  }
+
+  .experience-matter {
+    width: 22%;
+  }
+
+  .customer {
+    width: 33%;
+  }
+
+  .map-information {
+    width: 40%;
+  }
+
+  .map iframe {
+    width: 25rem;
+  }
+
+  .subscribe {
+    gap: 11rem;
+  }
+
+  .footer-end {
+    gap: 18rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .choose {
+    width: 70%;
+  }
+
+  .choose-heading {
+    margin-left: 14rem;
+  }
+
+  .acyivity-top .acyivity-top-left {
+    padding-top: 5.1rem !important;
+    padding-bottom: 5.1rem !important;
+  }
+
+  .reconnect {
+    margin-top: 5rem;
+  }
+
+  .hello-more {
+    width: 30%;
+  }
+
+  .customer {
+    width: 25%;
+  }
+
+  .map iframe {
+    width: 35rem;
+  }
+
+  .footer-end {
+    gap: 22rem;
+  }
+
+  .subscribe {
+    gap: 13rem;
+  }
+}
