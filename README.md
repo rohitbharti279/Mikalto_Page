@@ -1,8 +1,14 @@
 # Mikalto_Page
 Mikalto - Simplifying Your Development Workflow
+
+Deplyed Link: https://ornate-kulfi-9cbb07.netlify.app
+
+Description: 
+
 Welcome to Mikalto, a versatile tool designed to streamline your development process. Mikalto offers a wide range of features to enhance productivity and efficiency in your projects.
 
 Features:-
+
 . Code Generation: Quickly scaffold boilerplate code for various languages and frameworks.
 . Template Engine: Create and manage templates for recurring project structures.
 . Version Control Integration: Seamlessly integrate with popular version control systems like Git.
@@ -10,6 +16,7 @@ Features:-
 . Customization: Tailor Mikalto to suit your specific needs with customizable settings.
 
 Getting Started:-
+
 To use Mikalto, follow these steps:
 
 1) Download: Clone or download the code from the GitHub repository.
